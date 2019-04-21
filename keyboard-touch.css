@@ -1,0 +1,43 @@
+#keyboardInputMaster {
+	display:inline-table!important;
+	bottom:0!important;
+	left:0!important;
+	right:0!important;
+	top:auto!important;
+	position:fixed!important;
+	height:auto!important;
+	width:100%!important;
+}
+
+#keyboardInputMaster.keyboardInputSize1,
+#keyboardInputMaster.keyboardInputSize1 *,
+#keyboardInputMaster.keyboardInputSize3,
+#keyboardInputMaster.keyboardInputSize3 *,
+#keyboardInputMaster.keyboardInputSize4,
+#keyboardInputMaster.keyboardInputSize4 *,
+#keyboardInputMaster.keyboardInputSize5,
+#keyboardInputMaster.keyboardInputSize5 * {
+	font-size: 3.8vw!important;
+}
+
+#keyboardInputMaster {
+  //	font-size: 4vw!important;
+}
+
+#keyboardInputMaster * {
+	font-size: 3.8vw!important;
+}
+
+#keyboardInputMaster thead tr th div {
+  font-size:130% !important;
+}
+
+#keyboardInputMaster tbody tr td table tbody tr td small {
+  font-size:0.6em !important;
+}
+
+#keyboardInputMaster thead tr th {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
