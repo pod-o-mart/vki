@@ -3,11 +3,13 @@ Snippets for [GreyWywern's Virtual Keyboard Interface](http://www.greywyvern.com
 
 Folder `1.49` contains the original files.
 
-The file `keyboard_ru-ocs.js` has a Russian keyboard also containing Old Church Slavonic characters (on Ѣ / ALT).
+The updated version in the root folder has additionally keyboards for Amharic, Tigrinya, Glagolitic, Old Church Slavonic, Crimean Tatar and Turkmen.
 
-In `keyboard_am_ti.js` keyboards for Amharic and Tigrinya have been added.
+The Bulgarian, Serbian, Chinese (Pinyin), Turkish Q, Ukrainian and Russian have been updated.
 
-The optional file `keyboard-touch.js` prevents touch keyboards on mobile devices from opening, so the virtual keyboard will be used. `keyboard-touch.css` is the according stylesheet, making the keyboard mobile friendly
+Russian has been extended with old characters and an own meta key (on Ѣ instead of AltGr).
+
+The optional file `keyboard-touch.js` prevents touch keyboards on mobile devices from opening, so the virtual keyboard will be used. `keyboard-touch.css` is the according stylesheet, making the keyboard mobile friendly.
 
 Credits
 -------
