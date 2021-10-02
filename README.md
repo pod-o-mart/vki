@@ -13,9 +13,9 @@ Folder `1.49` contains the latest original files from [GreyWyvern](http://www.gr
 ## Mobile usage
 The optional file `keyboard-touch.js` prevents touch keyboards on mobile devices from opening, so the virtual keyboard will be used. `keyboard-touch.css` is the according stylesheet, making the keyboard mobile friendly.
 
-In order to make the script work, add the declaration
+In order to make the mobile script work, add the declaration
 `data-disable-touch-keyboard=""` to your input field or textarea, e.g. `<input data-disable-touch-keyboard="" id="example" name="example">`.
- You will also need [JQUERY](https://jquery.com/) and [modernizr.js](https://modernizr.com/).
+ The mobile function also needs [JQUERY](https://jquery.com/) and [modernizr.js](https://modernizr.com/) embedded on the website.
  
  ## Bookmarklet
  There is a [ready-to-use bookmarklet](https://github.com/pod-o-mart/keyboardBookmarklets) available.
