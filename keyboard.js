@@ -1,5 +1,12 @@
 /* ********************************************************************
  **********************************************************************
+** Changes by Martin Podolak - new count (on top of GreyWyvern's version 1.49
+** v. 1.5.0 (new count) - 2021-10-03 - CDN info added to readme.md, keyboard icon as "data:image/gif;base64", testpage added
+** 2019-03-07 Amharic and Tigrinya keyboard added (+dead keys)
+** 2019-04-29 Old Church Slavonic (+dead keys) and Glagolitic added, Bulgarian and Serbian updated
+** 2019-04-30 Turkmen, Crimean Tatar added, Turkish Q, Ukrainian and Russian updated, Russian extended with old characters and an own meta key for that: "yat"
+** 2019-05-01 merged keyboard_ru-ocs.js and keyboard_am_ti.js into this file (keyboard.js)
+ *
  * HTML Virtual Keyboard Interface Script - v1.49
  *   Copyright (c) 2011 - GreyWyvern
  *
@@ -17,12 +24,6 @@
  *
  *   See full changelog at:
  *     http://www.greywyvern.com/code/javascript/keyboard.changelog.txt
- *
- ** Changes by Martin Podolak on top of version 1.49:
- ** 2019-05-01 merged keyboard_ru-ocs.js and keyboard_am_ti.js into this file (keyboard.js)
- ** 2019-04-30 Turkmen, Crimean Tatar added, Turkish Q, Ukrainian and Russian updated, Russian extended with old characters and an own meta key for that: "yat"
- ** 2019-04-29 Old Church Slavonic (+dead keys) and Glagolitic added, Bulgarian and Serbian updated
- ** 2019-03-07 Amharic and Tigrinya keyboard added (+dead keys)
  *
  * Keyboard Credits
  **  - Amharic, Tigrinya, Turkmen, Crimean Tatar, Old Church Slavonic and Glagolitic keyboard layouts by Martin Podolak (podolak.net)
@@ -80,7 +81,7 @@ var VKI_attach, VKI_close;
   this.VKI_size = 5;  // Default keyboard size (1-5)
   this.VKI_sizeAdj = true;  // Allow user to adjust keyboard size
   this.VKI_clearPasswords = false;  // Clear password fields on focus
-  this.VKI_imageURI = "keyboard.png";  // If empty string, use imageless mode
+  this.VKI_imageURI = "data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAANAgMAAADH6eY5AAAADFBMVEUAAADAwMD///+AgID8PoY4AAAAUElEQVR4Xk3KsQ2AIBCF4TcEbHCVe1hoZ3IsZhyBRqdgCNzAwrgEHncGfHnVnw/FhmudSI68jE6OBNujecOpmVu/q5/j5/nnh2OnKN6H0P0LmzYfoht62vIAAAAASUVORK5CYII=";  // If empty string, use imageless mode
   this.VKI_clickless = 0;  // 0 = disabled, > 0 = delay in ms
   this.VKI_activeTab = 0;  // Tab moves to next: 1 = element, 2 = keyboard enabled element
   this.VKI_enterSubmit = true;  // Submit forms when Enter is pressed
