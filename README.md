@@ -1,5 +1,5 @@
-# vki
-[GreyWywern's Virtual Keyboard Interface](http://www.greywyvern.com/code/javascript/keyboard) improved and extended 
+# vki: Virtual Keyboard Interface
+[*GreyWywern's* Virtual Keyboard Interface](http://www.greywyvern.com/code/javascript/keyboard) improved and extended 
 
 ## Improvements and updates
 The new version in the root folder has additionally keyboards for Amharic, Tigrinya, Glagolitic, Old Church Slavonic, Crimean Tatar and Turkmen.
@@ -16,7 +16,7 @@ Folder `1.49` contains the latest original files from [GreyWyvern](http://www.gr
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pod-o-mart/vki/keyboard.css"/>
 ```
 
-## Mobile usage
+## Mobile usage (experimental)
 The optional file `keyboard-touch.js` prevents touch keyboards on mobile devices from opening, so the virtual keyboard will be used. `keyboard-touch.css` is the according stylesheet, making the keyboard mobile friendly.
 
 In order to make the mobile script work, add the declaration
@@ -37,4 +37,4 @@ In order to make the mobile script work, add the declaration
 Credits
 -------
 
-[GreyWyvern](http://www.greywyvern.com/code/javascript/keyboard)
+[*GreyWyvern*](http://www.greywyvern.com/code/javascript/keyboard)
