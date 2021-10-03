@@ -12,8 +12,8 @@ Folder `1.49` contains the latest original files from [GreyWyvern](http://www.gr
 
 ### CDN
 ```
-<script src="https://cdn.jsdelivr.net/gh/pod-o-mart/vki/keyboard.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pod-o-mart/vki/keyboard.css"/>
+<script src="https://cdn.jsdelivr.net/gh/pod-o-mart/vki@1.5.0/keyboard.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pod-o-mart/vki@1.5.0/keyboard.css"/>
 ```
 
 ## Mobile usage (experimental)
@@ -27,8 +27,8 @@ In order to make the mobile script work, add the declaration
  ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/pod-o-mart/vki/keyboard-touch.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pod-o-mart/vki/keyboard-touch.css"/>
+<script src="https://cdn.jsdelivr.net/gh/pod-o-mart/vki@1.5.0/keyboard-touch.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pod-o-mart/vki@1.5.0/keyboard-touch.css"/>
 ```
  
  ## Bookmarklet
