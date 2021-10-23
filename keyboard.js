@@ -26,7 +26,7 @@
  *     http://www.greywyvern.com/code/javascript/keyboard.changelog.txt
  *
  * Keyboard Credits
- **  - Amharic, Tigrinya, Turkmen, Crimean Tatar, Old Church Slavonic and Glagolitic keyboard layouts by Martin Podolak (podolak.net)
+ **  - Amharic, Tigrinya, Turkmen, Crimean Tatar, Old Church Slavonic and Glagolitic keyboard layouts by Martin Podolak (pod-o-mart.github.io)
  *   - Yiddish (Yidish Lebt) keyboard layout by Simche Taub (jidysz.net)
  *   - Urdu Phonetic keyboard layout by Khalid Malik
  *   - Yiddish keyboard layout by Helmut Wollmersdorfer
@@ -73,7 +73,7 @@ var VKI_attach, VKI_close;
   this.VKI_altgr = this.VKI_altgrlock = false;
   this.VKI_dead = false;
   this.VKI_deadBox = true; // Show the dead keys checkbox
-  this.VKI_deadkeysOn = true;  // Turn dead keys on by default (necessary for Ethiopic)
+  this.VKI_deadkeysOn = true;  // Turn dead keys on by default (necessary for Tigrinya / Amharic)
   this.VKI_numberPad = true;  // Allow user to open and close the number pad
   this.VKI_numberPadOn = false;  // Show number pad by default
   this.VKI_kts = this.VKI_kt = "US International";  // Default keyboard layout
