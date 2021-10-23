@@ -32,7 +32,7 @@ In order to make the mobile script work, add the declaration
 ```
  
  ## Bookmarklet
- There is a [ready-to-use bookmarklet](https://github.com/pod-o-mart/keyboardBookmarklets) available.
+ There is a [ready-to-use bookmarklet](https://pod-o-mart.github.io/keyboardBookmarklets/) available.
 
 Credits
 -------
